@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'antd';
 import logo from './logo.svg';
 import './App.css';
 
@@ -6,6 +7,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <Button type="primary">Button</Button>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -21,6 +23,6 @@ const App: React.FC = () => {
       </header>
     </div>
   );
-}
+};
 
 export default App;
